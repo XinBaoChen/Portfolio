@@ -20,11 +20,11 @@
       <header class="header" id="header">
          <nav class="nav container">
             <a href="#" class="nav_logo">
-               <span class=".nav_logo-circle">XinBao's</span>
-               <span class=".nav_logo-name">Portfolio</span>
+               <span class="nav_logo-circle">X</span>
+               <span class="nav_logo-name"> XinBao's Portfolio</span>
             </a>
 
-            <div class="nav_menu" id="nav-menu">
+            <div class="nav__menu" id="nav-menu">
                <span class="nav_title">Menu</span>
 
                <h3 class="nav_name">XinBao</h3>
@@ -43,7 +43,7 @@
                   </li>
 
                   <li class="nav_item">
-                     <a href="#contact" class="nav_link">Contact</a>
+                     <a href="#contact" class="nav_link nav_link-button">Contact Me</a>
                   </li>
                </ul>
 
@@ -55,6 +55,8 @@
             </div>
 
             <div class="nav_buttons">
+               <!-- Theme Buttons -->
+               <i class="ri-moon-line change-theme" id="theme-button"></i>
                <!-- toggle button -->
                <div class="nav_toggle" id="nav-toggle">
                   <i class="ri-menu-line"></i>
@@ -68,50 +70,43 @@
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
             <div class="home_container container grid">
-               <hi class="home_name">
-                  Hello, I am XinBao Chen
-               </hi>
-               <div class="home_profile">
-                  <div class="home_image">
-                     <img src="assets/img/3D_Animation_Style_A_picture_of_a_student_working_as_fronted_0.jpg" alt="image" class="home_img">
-                     <div class="home_shadow">
-                        <img src="assets/img/curved-arrow.svg" alt="" class="home_arrow">
-                        <img src="assets/img/random-lines.svg" alt="" class="home_line">
-
-                        <div class="geometric-box"></div>
-                     </div>
-                        <div class="home_social">
-                           <a href="www.linkedin.com/in/xinbao-chen/" target="_blank" class="home_social-link">
-                              <i class="ri-linkedin-fill"></i>
-                           </a>
-
-                           <a href="https://github.com/XinBaoChen" target="_blank" class="home_social-link">
-                              <i class="ri-github-fill"></i>
-                           </a>
-
-                        </div>
-
+              <h1 class="home_name">
+                Hello, I am XinBao Chen
+              </h1>
+              <div class="home_profile">
+                <div class="home_image">
+                  <img src="assets/img/3D_Animation_Style_A_picture_of_a_student_working_as_fronted_0.jpg" alt="image" class="home_img">
+                  <div class="home_shadow">
+                    <img src="assets/img/curved-arrow.svg" alt="" class="home_arrow">
+                    <img src="assets/img/random-lines.svg" alt="" class="home_line">
+                    <div class="geometric-box"></div>
                   </div>
-                  <div class="home_info">
-                        <p class="home_description">
-                           <b>Fronted Developer</b>: with knowledge in web 
-                           development and design, I offer the best 
-                                 projects resulting in quality work.
-                        </p>
-                        <a href="#about" class="home_scroll">
-                           <div class="home_scroll-box">
-                              <i class="ri-arrow-down-s-line"></i>
-                           </div>
-
-                           <span class="home_scroll-text">
-                              Scroll Down
-                           </span>
-                        </a>
+                  <div class="home_social">
+                    <a href="https://www.linkedin.com/in/xinbao-chen/" target="_blank" class="home_social-link">
+                      <i class="ri-linkedin-fill"></i>
+                    </a>
+                    <a href="https://github.com/XinBaoChen" target="_blank" class="home_social-link">
+                      <i class="ri-github-fill"></i>
+                    </a>
                   </div>
-               </div>
+                </div>
+                <div class="home_info">
+                  <p class="home_description">
+                    <b>Frontend Developer</b>: with knowledge in web development and design, excited for opportunities to learn and gain experience. My passion is a combination of product design, software development, and passion projects. I am planning to pursue a career in tech and put my skills to use..
+                  </p>
+                  <a href="#about" class="home_scroll">
+                    <div class="home_scroll-box">
+                      <i class="ri-arrow-down-s-line"></i>
+                    </div>
+                    <span class="home_scroll-text">
+                      Scroll Down
+                    </span>
+                  </a>
+                </div>
+              </div>
             </div>
-         </section>
-
+          </section>
+          
          <!--==================== ABOUT ====================-->
          <section class="about section" id="about">
             <div class="about__container container grid">
@@ -123,19 +118,17 @@
                   <div class="about__image">
                      <img src="assets/img/goodXinbao.png" alt="image" class="about__img">
 
-                     <!-- <div class="about__shadow"></div> -->
-                     <!-- <div class="geometric-box"></div>
+                    
+                     <div class="geometric-box"></div>
                      <img src="assets/img/random-lines.svg" alt="" class="about__line">
-                     <div class="about__box"></div> -->
+                     
                   </div>
                </div>
 
                <div class="about__info">
                   <p class="about__description">
                      Passionate about creating <b>Web Pages</b> with 
-            <b>UI/UX User Interface</b>, I have years of 
-               experience and many clients are happy with 
-                     the projects carried out.
+            <b>UI/UX User Interface.</b> Currently I am learning about Full-stack development things that I am working on are Mongodb and Next.js!.I am also passionate about sports. 
                   </p>
 
                   <ul class="about__list">
@@ -157,6 +150,7 @@
                </div>
             </div>
          </section>
+         </section> 
 
          <!--==================== SERVICES ====================-->
          <section class="services section">
@@ -237,28 +231,27 @@
                <!-- project 1 -->
                <article class="projects__card">
                   <div class="projects__image">
-                     <img src="assets/img/stereotypes.png" alt="image" class="projects__img">
-                     <a href="#" class="projects__button button">
+                     <img src="assets/img/pokemon.png" alt="image" class="projects__img">
+                     <a href="" class="projects__button button">
                         <i class="ri-arrow-right-up-line"></i>
                      </a>
                   </div>
 
                   <div class="projects__content">
-                     <h3 class="projects__subtitle">Website</h3>
-                     <h2 class="projects__title">Interesting Website</h2>
+                     <h3 class="projects__subtitle">Technology: Next.js, Vercel, Html, Css, Javascript</h3>
+                     <h2 class="projects__title">Pokemon Search</h2>
 
                      <p class="projects__description">
-                        Project that you carry out in the design and structure of the layout, 
-                        showing the design at the client's request.
+                        The Pokemon search page is a comprehensive tool that allows users to effortlessly explore the status and moves of any Pokemon. With a user-friendly interface, it provides detailed information on a Pokemon's base stats, abilities, and typing, helping trainers strategize their battles effectively. Additionally, the page displays an extensive list of moves available to each Pokemon, including their power, accuracy, and any additional effects, ensuring trainers can make informed decisions when building their teams.
                      </p>
                   </div>
 
                   <div class="projects__buttons">
-                     <a href="https://xinbaochen-wics-hackthon.netlify.app/" target="_blank" class="projects__link">
-                        <i class="ri-github-line"></i> View
+                     <a href="https://github.com/XinBaoChen/pokemonSearch" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> Github
                      </a>
 
-                     <a href="https://dribbble.com/" target="_blank" class="projects__link">
+                     <a href="https://xinbao-pokemon-search.vercel.app/" target="_blank" class="projects__link">
                         <i class="ri-dribbble-line"></i> View
                      </a>
 
@@ -267,28 +260,28 @@
                <!-- project 2 -->
                <article class="projects__card">
                   <div class="projects__image">
-                     <img src="assets/img/" alt="image" class="projects__img">
+                     <img src="assets/img/todolist.png" alt="image" class="projects__img">
                      <a href="" class="projects__button button">
                         <i class="ri-arrow-right-up-line"></i>
                      </a>
                   </div>
 
                   <div class="projects__content">
-                     <h3 class="projects__subtitle">Website</h3>
-                     <h2 class="projects__title">Fun website</h2>
+                     <h3 class="projects__subtitle">Technology:React.js,Html, Css, Javascript
+                     </h3>
+                     <h2 class="projects__title">ToDo List</h2>
 
                      <p class="projects__description">
-                        Project that you carry out in the design and structure of the layout, 
-                        showing the design at the client's request.
+                        This to-do app is designed to help you stay organized and manage your tasks efficiently. With our app, you can easily create a list of tasks, set priorities, and rank them according to their importance or urgency.
                      </p>
                   </div>
 
                   <div class="projects__buttons">
-                     <a href="https://github.com/" target="_blank" class="projects__link">
-                        <i class="ri-github-line"></i> View
+                     <a href="https://github.com/XinBaoChen/todo-list" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> Github
                      </a>
 
-                     <a href="https://dribbble.com/" target="_blank" class="projects__link">
+                     <a href="https://xinbao-todo-list.vercel.app/" target="_blank" class="projects__link">
                         <i class="ri-dribbble-line"></i> View
                      </a>
 
@@ -298,28 +291,28 @@
                <!-- project 3 -->
                <article class="projects__card">
                   <div class="projects__image">
-                     <img src="assets/img/" alt="image" class="projects__img">
+                     <img src="assets/img/weatherApp.png" alt="image" class="projects__img">
                      <a href="" class="projects__button button ">
                         <i class="ri-arrow-right-up-line"></i>
                      </a>
                   </div>
 
                   <div class="projects__content">
-                     <h3 class="projects__subtitle">Website</h3>
-                     <h2 class="projects__title">Travel website</h2>
+                     <h3 class="projects__subtitle">Technology: Next.js, Tailwind.css, Html , Javascript</h3>
+                     <h2 class="projects__title">Weather App</h2>
 
                      <p class="projects__description">
-                        Project that you carry out in the design and structure of the layout, 
-                        showing the design at the client's request.
+                        Welcome to Global Weather Hub, your ultimate destination for accurate and comprehensive weather information worldwide. Our user-friendly website allows you to search for any city in the world and access real-time weather updates, detailed forecasts, and essential weather-related data.
+
                      </p>
                   </div>
 
                   <div class="projects__buttons">
-                     <a href="https://github.com/" target="_blank" class="projects__link">
-                        <i class="ri-github-line"></i> View
+                     <a href="https://github.com/XinBaoChen/weather-app" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> Github
                      </a>
 
-                     <a href="https://dribbble.com/" target="_blank" class="projects__link">
+                     <a href="https://xinbao-weather-app.vercel.app/" target="_blank" class="projects__link">
                         <i class="ri-dribbble-line"></i> View
                      </a>
 
@@ -328,6 +321,38 @@
                <!-- project 4 -->
                <article class="projects__card">
                   <div class="projects__image">
+                     <img src="assets/img/sudoku.png" alt="image" class="projects__img">
+                     <a href="" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Technology: Html, Css, Javascript</h3>
+                     <h2 class="projects__title">Sudoku Website</h2>
+
+                     <p class="projects__description">
+                        With our interactive Sudoku interface, you can easily input numbers, erase mistakes, and track your progress as you solve each puzzle. Our system ensures that all puzzles are generated with logical solutions, ensuring a fair and enjoyable experience for all players.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/XinBaoChen/sudoku-app" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> Github
+                     </a>
+
+                     <a href="https://xinbao-sudoku.netlify.app/" target="_blank" class="projects__link">
+                        <i class="ri-dribbble-line"></i> View
+                     </a>
+
+                  </div>
+               </article> 
+
+      
+
+               <!-- project 5 -->
+               <!-- <article class="projects__card">
+                  <div class="projects__image">
                      <img src="assets/img/" alt="image" class="projects__img">
                      <a href="" class="projects__button button">
                         <i class="ri-arrow-right-up-line"></i>
@@ -335,28 +360,28 @@
                   </div>
 
                   <div class="projects__content">
-                     <h3 class="projects__subtitle">Website</h3>
-                     <h2 class="projects__title">Vlog website</h2>
+                     <h3 class="projects__subtitle">Technology: </h3>
+                     <h2 class="projects__title"></h2>
 
                      <p class="projects__description">
-                        Project that you carry out in the design and structure of the layout, 
-                        showing the design at the client's request.
+                        Gender stereotypes in tech persist, often portraying men as more technically skilled and women as less competent. These stereotypes hinder diversity and inclusion in the industry, perpetuating a biased environment that limits opportunities for women and reinforces gender inequality.
                      </p>
                   </div>
 
                   <div class="projects__buttons">
-                     <a href="https://github.com/" target="_blank" class="projects__link">
-                        <i class="ri-github-line"></i> View
+                     <a href="https://github.com/XinBaoChen/Wics-Hackthon" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> Github
                      </a>
 
-                     <a href="https://dribbble.com/" target="_blank" class="projects__link">
+                     <a href="https://xinbaochen-wics-hackthon.netlify.app/" target="_blank" class="projects__link">
                         <i class="ri-dribbble-line"></i> View
                      </a>
 
                   </div>
-               </article>
-               <!-- project 5 -->
-               <article class="projects__card">
+               </article> -->
+               
+               <!-- project 6 -->
+                <!-- <article class="projects__card">
                   <div class="projects__image">
                      <img src="assets/img/" alt="image" class="projects__img">
                      <a href="" class="projects__button button">
@@ -384,42 +409,136 @@
                      </a>
 
                   </div>
-               </article>
-
+               </article>  -->
+                  
+                  <!-- Wics Hackathon -->
+                  <article class="projects__card">
+                     <div class="projects__image">
+                        <img src="assets/img/stereotypes.png" alt="image" class="projects__img">
+                        <a href="" class="projects__button button">
+                           <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                     </div>
+   
+                     <div class="projects__content">
+                        <h3 class="projects__subtitle">Technology: Html, Css, Javascript</h3>
+                        <h2 class="projects__title">Gender Sterotypes in Tech</h2>
+   
+                        <p class="projects__description">
+                           Gender stereotypes in tech persist, often portraying men as more technically skilled and women as less competent. These stereotypes hinder diversity and inclusion in the industry, perpetuating a biased environment that limits opportunities for women and reinforces gender inequality.
+                        </p>
+                     </div>
+   
+                     <div class="projects__buttons">
+                        <a href="https://github.com/XinBaoChen/Wics-Hackthon" target="_blank" class="projects__link">
+                           <i class="ri-github-line"></i> Github
+                        </a>
+   
+                        <a href="https://xinbaochen-wics-hackthon.netlify.app/" target="_blank" class="projects__link">
+                           <i class="ri-dribbble-line"></i> View
+                        </a>
+   
+                     </div>
+                  </article>
             </div>
          </section>
 
          <!--==================== CONTACT ====================-->
          <section class="contact section" id="contact">
-            <div class="cibtact__container grid">
-               <div class="contact__data">
-                  <h2 class="section__title-2">
-                     <span>Contact Me.</span>
-                  </h2>
-               </div>
-               <div class="contact__mail">
-
-               </div>
-               <div class="contact__social">
-
-               </div>
+            <div class="contact__container container grid">
+              <div class="contact__data">
+                <div class="geometric-box"></div>
+                <h2 class="section__title-2">
+                  <span>Contact Me.</span>
+                </h2>
+                <p class="contact__description-1">
+                  I will read all emails. Send me any message you want and I'll get back to you.
+                </p>
+                <p class="contact__description-2">
+                  I need your <b>Name</b> and <b>Email Address</b>, but you won't receive anything other than your reply.
+                </p>
+              </div>
+              <div class="contact__mail">
+                <h2 class="contact__title">
+                  Send Me a Message
+                </h2>
+                <form action="" class="contact__form" id="contact-form">
+                  <div class="contact__group">
+                    <div class="contact__box">
+                      <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
+                      <label for="name" class="contact__label">First Name</label>
+                    </div>
+                    <div class="contact__box">
+                      <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
+                      <label for="email" class="contact__label">Email Address</label>
+                    </div>
+                  </div>
+                  <div class="contact__box">
+                    <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
+                    <label for="subject" class="contact__label">Subject</label>
+                  </div>
+                  <div class="contact__box contact__area">
+                    <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
+                    <label for="message" class="contact__label">Message</label>
+                  </div>
+                  <p class="contact__message" id="contact-message"></p>
+                  <button type="submit" class="contact__button button">
+                    <i class="ri-send-plane-line"></i> Send Message
+                  </button>
+                </form>
+              </div>
+              <div class="contact__social">
+                <img src="assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
+                <div class="contact__social-data">
+                  <div>
+                    <b><p class="contact__social-description-1"></b>
+                      Connect With Me!
+                    </p>
+                    <b><p class="contact__social-description-2">
+                      You can shoot me a messeage on Linkedin, I will gladly to have a chat.
+                    </p></b>
+                  </div>
+                  <div class="contact__social-links">
+                    <a href="www.linkedin.com/in/xinbao-chen/" target="_blank" class="contact__social-link">
+                      <i class="ri-linkedin-fill"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-         </section>
-      </main>
+          </section>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
-      </footer>
+         <div class="footer__container container grid">
+           <ul class="footer__links">
+             <li>
+               <a href="#home" class="footer__link">Home</a>
+             </li>
+             <li>
+               <a href="#about" class="footer__link">About</a>
+             </li>
+             <li>
+               <a href="#projects" class="footer__link">Project</a>
+             </li>
+           </ul>
+           <span class="footer__copy">
+             &#169; All Rights Reserved By 
+             <a href="#">XinBao Chen @2023</a>
+           </span>
+         </div>
+       </footer>
 
       <!--========== SCROLL UP ==========-->
-      
+      <a href="" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-drop-up-fill"></i>
+      </a>
 
       <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
+      <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
       
       <!--=============== EMAIL JS ===============-->
-      
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
